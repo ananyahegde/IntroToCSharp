@@ -24,8 +24,11 @@
             // Console.WriteLine($"Your favourite food and drink is {favFood} and {favDrink}");
 
             StructsApp structs = new StructsApp();
-            StructsApp.Point p = new StructsApp.Point(3.3, 4.4);
-            Console.WriteLine($"{p.X}, {p.Y}");
+            // StructsApp.Point p = new StructsApp.Point(3.3, 4.4);
+            // Console.WriteLine($"{p.X}, {p.Y}");
+
+            ListsApp lists = new ListsApp();
+            // lists.ShowListExample();
         }
     }
 }
