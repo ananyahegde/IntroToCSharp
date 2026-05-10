@@ -47,8 +47,13 @@
             // Delegate p = new Delegate();
             LinqApp linqApp = new LinqApp();
             // linqApp.Linq();
+
             LinqExtensionsApp linqExtensionsApp = new LinqExtensionsApp();
-            linqExtensionsApp.LinqExtensions();
+            // linqExtensionsApp.LinqExtensions();
+
+            DelegateTypesApp delegateTypesApp = new DelegateTypesApp();
+            delegateTypesApp.DelegateTypes();
+
         }
     }
 }
